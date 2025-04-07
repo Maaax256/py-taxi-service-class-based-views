@@ -5,7 +5,7 @@
   <ul>
     {% for car in driver.cars.all %}
       <li>
-        {{ car.model }} {{ car.manufacturer }}
+        {{ car.model }} {{ car.manufacturer.name }}
       </li>
     {% empty %}
       <li>

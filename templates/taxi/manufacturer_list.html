@@ -5,7 +5,7 @@
   <ul>
     {% for manufacturer in manufacturer_list %}
       <li>
-        <p>{{ manufacturer.name }}</p>
+        <p>{{ manufacturer.name }} {{ manufacturer.country }}</p>
       </li>
     {% empty %}
       <li>
